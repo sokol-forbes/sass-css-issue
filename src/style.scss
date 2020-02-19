@@ -37,6 +37,8 @@ footer {
   padding-top: 40px;
   text-align: center;
   height: 120px;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 footer > p {
@@ -101,7 +103,6 @@ h1 {
 
 .container__right-block > div {
   font-size: 16px;
-  width: auto;
   right: 10%;
 }
 
@@ -120,6 +121,14 @@ img {
   .container__left-block > div {
     max-width: 250px;
   }
+
+  footer > p {
+    font-size: 12px;
+  }
+
+  .container__right-block > div {
+    font-size: 12px;
+}
 }
 
 @media (max-width: 865px) {
